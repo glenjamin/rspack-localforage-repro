@@ -1,4 +1,5 @@
 import './render.css'
+import localforage from 'localforage'
 
 export function render() {
     const el = document.createElement('div')
